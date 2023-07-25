@@ -1,0 +1,115 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;;
+}
+.topleft{
+    width: 50%;
+    padding: 12px;
+}
+.topright{
+    width: 50%;
+    /* height: 50%; */
+    padding: 12px;
+}
+.section1{
+    max-height: 50vh;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+.logo{
+    font-size: 2rem;
+}
+.topright .image2{
+    width: 350px;
+}
+.section2{
+    padding: 90px;
+    /* padding-left: 63px;
+    padding-right: 63px; */
+}
+.section2 h1{
+    font-size: 2.3rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    border-radius: 7px;
+    padding: 8px 0;
+   margin: 15px 15px;
+   min-width: 23vw;
+   border: 2px solid rgb(99, 122, 226);
+   text-align: center;
+
+}
+.box h2{
+    font-size: 1.8rem;
+    padding: 15px 0;
+    
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+   margin : 12px 2px;
+}
+.highlight{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+.pricetable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section3{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section3 table{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 140px ;
+    border-collapse: collapse ;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+    
+}
+.section3 table td{
+    /* width: 23vw; */
+    border-bottom: 2px solid black;
+    /* padding: 15px 0; */
+    
+}
+
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+footer{
+    text-align: center;
+    padding: 23px;
+}
